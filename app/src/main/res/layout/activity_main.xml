@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/PokedexTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokedex"
+        android:background="#FFCE3B"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#E4382B"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:typeface="normal" />
+
+    <GridView
+        android:id="@+id/gridViewPokemons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        tools:ignore="MissingConstraints"></GridView>
+
+</LinearLayout>
+
